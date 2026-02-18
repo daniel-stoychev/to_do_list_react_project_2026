@@ -33,3 +33,15 @@ This project is built as a **junior‑friendly portfolio project**, focusing on 
 - **Tailwind CSS**
 - React Router
 - localStorage
+
+---
+
+## 🛠️ Development Steps
+
+### Project Setup
+
+- [x] npm create vite
+- [x] setup React Router
+- [] setup Tailwind
+- []
+- []
