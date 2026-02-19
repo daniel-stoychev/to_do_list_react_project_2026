@@ -1,10 +1,10 @@
-// import viteLogo from "/vite.svg";
-import "./App.css";
+import Header from "./components/Header.jsx";
+import "../styles/style.css";
 
 function App() {
   return (
     <>
-      <h1>TODO App</h1>
+      <Header />
     </>
   );
 }

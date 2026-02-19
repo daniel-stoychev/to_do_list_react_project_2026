@@ -31,7 +31,7 @@ This project is built as a **junior‑friendly portfolio project**, focusing on 
 - **React** (Web)
 - **Vite**
 - **Tailwind CSS**
-- React Router
+- CSS (CSS Modules)
 - localStorage
 
 ---
@@ -41,7 +41,16 @@ This project is built as a **junior‑friendly portfolio project**, focusing on 
 ### Project Setup
 
 - [x] npm create vite
-- [x] setup React Router
 - [] setup Tailwind
 - []
 - []
+
+### TODOs
+
+- [] Header
+  - [x] Add compoenent
+  - [] Follow design idea -> https://miro.medium.com/v2/resize:fit:1400/1*0Tm2ahjpE_zqv3Qx6-M_cQ.png
+  - [] Setup backgroun image with text and date section
+  - [] Bonus - progress bar for completed tasks
+  - []
+  - []

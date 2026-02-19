@@ -1,3 +1,16 @@
+import styles from "./Header.module.css";
+
 export default function Header() {
-  return <h1>Task Manager</h1>;
+  return (
+    <>
+      <div className="header-container">
+        <section className="title">
+          <h1>Task Manager</h1>
+        </section>
+        <section className="date">
+          <p>{Date()}</p>
+        </section>
+      </div>
+    </>
+  );
 }
