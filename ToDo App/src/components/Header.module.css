@@ -15,7 +15,7 @@
     border-bottom: 5px solid;
     border-image-source: linear-gradient(to right,#1e7677, #0eccfb);
     border-image-slice: 1;
-    width: 40%;
+    width: 60%;
     justify-content: space-between;
 }
 
@@ -27,6 +27,7 @@
 .title p {
     bottom: 0px;
     text-align: right;
+    margin-right: 0px;
 }
 
 .date {
@@ -34,7 +35,7 @@
     flex-direction: column;
     justify-content: center;
     background-color: rgba(0, 0, 0, 0.298);
-    width: 60%;
+    width: 40%;
     text-align: left;
 }
 

@@ -12,9 +12,6 @@ export default function Header() {
         </section>
         <section className={styles.date}>
           <span>
-            completed:<span>test</span>
-          </span>
-          <span>
             all:<span>test</span>
           </span>
         </section>

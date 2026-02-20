@@ -1,0 +1,66 @@
+.mainContainer {
+    /* background-color: #0eccfb;
+    height: 70vh; */
+}
+
+.title h1 {
+    font-weight: 500;
+    margin: 1rem;
+}
+
+.tasks {
+    width: 90%;
+}
+
+.tasks li {
+    display: flex;
+    align-items: center;
+    /* margin: 1rem 0; */
+    padding: 1rem 0;
+    border-bottom: 0.5px solid rgba(159, 155, 155, 0.702);
+}
+
+.tasks img {
+    width: 20px;
+}
+
+.singleTask {
+    display: flex;
+}
+
+.singleTask p {
+    font-size: 20px;
+    padding: 0px 20px;
+}
+
+.deleteTask {
+    border: none;
+    background-color: inherit;
+    font-size: 15px;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    transition: 1s;
+}
+
+.deleteTask:hover {
+    background-color: #0eccfb53;
+    transition: 1s;
+}
+
+
+.addTask button{
+    font-size: 20px;
+    color: white;
+    width: 70px;
+    height: 65px;
+    border: 3px solid #1e7677;
+    border-radius: 50%;
+    background-color: #0eccfb;
+    box-shadow: #1e7677 0px 0px 20px;
+    position: absolute;
+    bottom: 50px;
+    right: 50px;
+}
+
+

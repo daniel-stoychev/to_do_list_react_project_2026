@@ -1,31 +1,48 @@
+import styles from "./CtrlAndTasks.module.css";
+import closeImg from "../assets/x.svg";
+
 export default function ControlsAndTasks() {
   return (
     <>
-      <main>
-        <div className="title">
+      <main className={styles.mainContainer}>
+        <div className={styles.title}>
           <h1>Your Things</h1>
         </div>
-        <div className="tasks">
+        <div className={styles.tasks}>
           <ul>
             <li>
-              <p>Test 1</p>
-              <button className="deleteTask">X</button>
+              <div className={styles.singleTask}>
+                <img src={closeImg} />
+                <p>Test 1</p>
+              </div>
+              <button className={styles.deleteTask}>X</button>
             </li>
             <li>
-              <p>Test 1</p>
-              <button className="deleteTask">X</button>
+              <div className={styles.singleTask}>
+                <img src={closeImg} />
+                <p>Test 1</p>
+              </div>
+              <button className={styles.deleteTask}>X</button>
             </li>
             <li>
-              <p>Test 1</p>
-              <button className="deleteTask">X</button>
+              <div className={styles.singleTask}>
+                <img src={closeImg} />
+                <p>Test 1</p>
+              </div>
+              <button className={styles.deleteTask}>X</button>
             </li>
           </ul>
         </div>
         <div className="controls">
-          <div className="addTask">
-            <button>Add Task</button>
+          <div className={styles.addTask}>
+            <button>Add</button>
           </div>
           <div className="deleteAllTasks">Delete All Tasks</div>
+        </div>
+        <div className="conpleted">
+          <span>
+            completed:<span>test</span>
+          </span>
         </div>
       </main>
     </>
