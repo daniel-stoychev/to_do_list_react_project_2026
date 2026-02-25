@@ -50,7 +50,14 @@ This project is built as a **junior‑friendly portfolio project**, focusing on 
 - [] Header
   - [x] Add compoenent
   - [] Follow design idea -> https://miro.medium.com/v2/resize:fit:1400/1*0Tm2ahjpE_zqv3Qx6-M_cQ.png
-  - [] Setup backgroun image with text and date section
+  - [x] Setup backgroun image with text and date section
+  - [] Automatical date update
   - [] Bonus - progress bar for completed tasks
+  - []
+  - []
+- [] Controls & Tasks
+  - [] Create Add task button and styles
+  - [] Create Clear All tasks button and styles
+    - [] Setup Confirm window and style it
   - []
   - []
