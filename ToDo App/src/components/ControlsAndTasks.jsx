@@ -33,13 +33,15 @@ export default function ControlsAndTasks() {
             </li>
           </ul>
         </div>
-        <div className="controls">
+        <div className={styles.controls}>
           <div className={styles.addTask}>
             <button>Add</button>
           </div>
-          <div className="deleteAllTasks">Delete All Tasks</div>
+          <div className={styles.deleteAllTasks}>
+            <button>Delete All Tasks</button>
+          </div>
         </div>
-        <div className="conpleted">
+        <div className="completed">
           <span>
             completed:<span>test</span>
           </span>

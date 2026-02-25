@@ -60,9 +60,29 @@
     border-radius: 50%;
     background-color: #0eccfb;
     box-shadow: #1e7677 0px 0px 20px;
-    position: absolute;
-    bottom: 50px;
-    right: 50px;
+
 }
+
+.deleteAllTasks button {
+    cursor: pointer;
+    font-size: 15px;
+    color: white;
+    background-color: #bd2020cc;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+.controls {
+    width: 100%;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    bottom: 20px;
+    align-items: center;
+    flex-direction: row-reverse;
+}
+
+
 
 
