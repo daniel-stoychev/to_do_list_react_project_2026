@@ -8,17 +8,22 @@ export default function ControlsAndTasks(tasks, addTask) {
         <div className={styles.title}>
           <h1>Your Things</h1>
         </div>
-        <div className={styles.tasks}>
-          <ul>
-            <li>
-              <div className={styles.singleTask}>
-                <img src={closeImg} />
-                <p>Test 1</p>
-              </div>
-              <button className={styles.deleteTask}>×</button>
-            </li>
-          </ul>
-        </div>
+        {tasks.lenght > 0 ? (
+          <div className={styles.tasks}>
+            <ul>
+              <li>
+                <div className={styles.singleTask}>
+                  <img src={closeImg} />
+                  <p>Test 1</p>
+                </div>
+                <button className={styles.deleteTask}>×</button>
+              </li>
+            </ul>
+          </div>
+        ) : (
+          <p className={styles.noTasks}>There are no tasks!</p>
+        )}
+
         <div className={styles.completed}>
           <span>
             completed tasks: <span>test</span>
