@@ -2,24 +2,35 @@ import styles from "./CtrlAndTasks.module.css";
 import closeImg from "../assets/x.svg";
 
 export default function ControlsAndTasks(tasks, addTask) {
+  tasks = [
+    {
+      id: Date.now(),
+      text: "task 1",
+      completed: false,
+    },
+  ];
+  console.log(tasks);
+
   return (
     <>
       <main className={styles.mainContainer}>
         <div className={styles.title}>
           <h1>Your Things</h1>
         </div>
-        {tasks.lenght > 0 ? (
-          <div className={styles.tasks}>
-            <ul>
-              <li>
-                <div className={styles.singleTask}>
-                  <img src={closeImg} />
-                  <p>Test 1</p>
-                </div>
-                <button className={styles.deleteTask}>×</button>
-              </li>
-            </ul>
-          </div>
+        {tasks.length > 0 ? (
+          tasks.map((task) => (
+            <div className={styles.tasks}>
+              <ul>
+                <li>
+                  <div className={styles.singleTask}>
+                    <img src={closeImg} />
+                    <p>{task.text}</p>
+                  </div>
+                  <button className={styles.deleteTask}>×</button>
+                </li>
+              </ul>
+            </div>
+          ))
         ) : (
           <p className={styles.noTasks}>There are no tasks!</p>
         )}
