@@ -36,9 +36,9 @@
 .deleteTask {
     border: none;
     background-color: inherit;
-    font-size: 15px;
-    width: 20px;
-    height: 20px;
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     transition: 1s;
     cursor: pointer;

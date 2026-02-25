@@ -15,21 +15,21 @@ export default function ControlsAndTasks() {
                 <img src={closeImg} />
                 <p>Test 1</p>
               </div>
-              <button className={styles.deleteTask}>X</button>
+              <button className={styles.deleteTask}>×</button>
             </li>
             <li>
               <div className={styles.singleTask}>
                 <img src={closeImg} />
                 <p>Test 1</p>
               </div>
-              <button className={styles.deleteTask}>X</button>
+              <button className={styles.deleteTask}>×</button>
             </li>
             <li>
               <div className={styles.singleTask}>
                 <img src={closeImg} />
                 <p>Test 1</p>
               </div>
-              <button className={styles.deleteTask}>X</button>
+              <button className={styles.deleteTask}>×</button>
             </li>
           </ul>
         </div>
