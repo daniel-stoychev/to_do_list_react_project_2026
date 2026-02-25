@@ -65,3 +65,4 @@ This project is built as a **junior‑friendly portfolio project**, focusing on 
   - [x] Define tasks object
   - [x] Set state
   - [x] Define addTask function
+- [x] Pass logic to ControlsAndTasks component

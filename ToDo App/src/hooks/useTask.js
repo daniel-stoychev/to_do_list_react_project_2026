@@ -5,17 +5,18 @@ export default function useTask() {
     const { tasks, setTasks } = useState([]);
 
     const addTask = (text) => {
+
         if (!text.trim()) {
             return;
         }
+
         const newTask = {
             id: Date.now(),
             text,
             completed: false
         }
 
-        setTasks((prev) => [...prev, newTask])
-
+        setTasks((prev) => [...prev, newTask]);
     }
 
 

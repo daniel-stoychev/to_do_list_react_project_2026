@@ -1,7 +1,7 @@
 import styles from "./CtrlAndTasks.module.css";
 import closeImg from "../assets/x.svg";
 
-export default function ControlsAndTasks() {
+export default function ControlsAndTasks(tasks, addTask) {
   return (
     <>
       <main className={styles.mainContainer}>

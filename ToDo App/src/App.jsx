@@ -1,10 +1,10 @@
 import Header from "./components/Header.jsx";
 import "../styles/style.css";
-import { useState } from "react";
 import ControlsAndTasks from "./components/ControlsAndTasks.jsx";
+import useTask from "./hooks/useTask.js";
 
 function App() {
-  const [tasks, setTasks] = useState([]);
+  const { tasks, addTask } = useTask;
 
   return (
     <>
