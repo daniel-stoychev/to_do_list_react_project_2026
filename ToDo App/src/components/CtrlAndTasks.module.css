@@ -75,12 +75,21 @@
 
 .controls {
     width: 100%;
-    position: absolute;
     display: flex;
     justify-content: space-between;
-    bottom: 20px;
     align-items: center;
     flex-direction: row-reverse;
+    margin-bottom: 2rem;
+}
+
+.completed {
+    text-align: left;
+    padding: 2rem;
+    margin-top: 4rem;
+    margin-bottom: 2rem;
+    background-color:#1e7677;
+    box-shadow: #1e7677 0px 0px 20px;
+    color: white;
 }
 
 

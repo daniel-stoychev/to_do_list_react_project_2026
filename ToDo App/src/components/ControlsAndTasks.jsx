@@ -17,21 +17,12 @@ export default function ControlsAndTasks() {
               </div>
               <button className={styles.deleteTask}>×</button>
             </li>
-            <li>
-              <div className={styles.singleTask}>
-                <img src={closeImg} />
-                <p>Test 1</p>
-              </div>
-              <button className={styles.deleteTask}>×</button>
-            </li>
-            <li>
-              <div className={styles.singleTask}>
-                <img src={closeImg} />
-                <p>Test 1</p>
-              </div>
-              <button className={styles.deleteTask}>×</button>
-            </li>
           </ul>
+        </div>
+        <div className={styles.completed}>
+          <span>
+            completed tasks: <span>test</span>
+          </span>
         </div>
         <div className={styles.controls}>
           <div className={styles.addTask}>
@@ -40,11 +31,6 @@ export default function ControlsAndTasks() {
           <div className={styles.deleteAllTasks}>
             <button>Delete All Tasks</button>
           </div>
-        </div>
-        <div className="completed">
-          <span>
-            completed:<span>test</span>
-          </span>
         </div>
       </main>
     </>
