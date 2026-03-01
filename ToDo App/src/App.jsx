@@ -9,7 +9,7 @@ function App() {
   return (
     <>
       <Header />
-      <ControlsAndTasks />
+      <ControlsAndTasks tasks={tasks} addTask={addTask} />
     </>
   );
 }

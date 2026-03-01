@@ -19,7 +19,7 @@ export default function ControlsAndTasks(tasks, addTask) {
         </div>
         {tasks.length > 0 ? (
           tasks.map((task) => (
-            <div className={styles.tasks}>
+            <div className={styles.tasks} key={task.id}>
               <ul>
                 <li>
                   <div className={styles.singleTask}>
