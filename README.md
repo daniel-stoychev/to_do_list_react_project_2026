@@ -54,12 +54,13 @@ This project is built as a **junior‑friendly portfolio project**, focusing on 
   - [] Automatical date update
   - [] Bonus - progress bar for completed tasks
   - []
-  - []
 - [] Add and style Controls & Tasks
   - [x] Create Add task button and styles
   - [x] Create Clear All tasks button and styles
     - [] Setup Confirm window and style it
-  - []
+  - [] Create Add Task modal and style it
+    - [] Add Controller and connect to AddTask button on Home
+
 - [x] Add logic for adding a task
   - [x] Add useTask custom hook
   - [x] Define tasks object

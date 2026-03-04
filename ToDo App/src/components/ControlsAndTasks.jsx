@@ -1,5 +1,6 @@
 import styles from "./CtrlAndTasks.module.css";
 import closeImg from "../assets/x.svg";
+import AddTask from "./AddTask.jsx";
 
 export default function ControlsAndTasks(tasks, addTask) {
   tasks = [
@@ -42,7 +43,7 @@ export default function ControlsAndTasks(tasks, addTask) {
         </div>
         <div className={styles.controls}>
           <div className={styles.addTask}>
-            <button>Add</button>
+            <button onClick={AddTask}>Add</button>
           </div>
           <div className={styles.deleteAllTasks}>
             <button>Delete All Tasks</button>
