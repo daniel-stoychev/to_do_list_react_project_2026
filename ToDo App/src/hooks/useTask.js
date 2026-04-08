@@ -2,7 +2,7 @@ import { useState } from "react";
 
 export default function useTask() {
 
-    const { tasks, setTasks } = useState([]);
+    const [tasks, setTasks] = useState([]);
 
     const addTask = (text) => {
 

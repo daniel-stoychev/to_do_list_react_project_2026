@@ -1,15 +1,10 @@
 import styles from "./CtrlAndTasks.module.css";
 import closeImg from "../assets/x.svg";
 import AddTask from "./AddTask.jsx";
+import useTask from "../hooks/useTask.js";
 
-export default function ControlsAndTasks(tasks, addTask) {
-  tasks = [
-    {
-      id: Date.now(),
-      text: "task 1",
-      completed: false,
-    },
-  ];
+export default function ControlsAndTasks() {
+  const { tasks, addTask } = useTask();
   console.log(tasks);
 
   return (
